@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+body {
+  /*background-image: url('http://i.imgur.com/xXRjans.jpg');*/
+  /*background-image: url('http://i.imgur.com/yNjzhpL.jpg');*/
+  /*background-image: url('http://i.imgur.com/LKUO4Ia.jpg');*/
+  /*background-image: url('/assets/images/background.jpg');
+
+  /*color: white;*/
+  background-size: cover;
+  line-height: 2.5em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav a:active {
+  text-decoration: none;
+}
+
+.headline {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav a, nav .ember-view.active {
+  margin: 0 50px;
+  color: #b6b6b6;
+  /*color: white;*/
+  font-size: 25px;
+}
+
+nav a:hover {
+  border-bottom: 3px solid #b6b6b6;
+  text-decoration: none;
+  color: black;
+}
+
+.pinstripe-left {
+  border-bottom: 3px solid #b6b6b6;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+h1 {
+  padding: 15px;
+}
+
+.pinstripe-right {
+  border-bottom: 3px solid #b6b6b6;
+  position: relative;
+  top: 50px;
+  right: 100px;
+}
+
+nav {
+  margin: 30px auto;
+  text-align: center;
+  padding-bottom: 10px;
+  /*border-bottom: 1px solid black;*/
+}
+
+#headshot {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.homepage {
+  text-align: center;
+}
+
+.image-snippet img {
+  width: 600px;
+}
+
+.work, .about {
+  padding: 0 15%;
+}
+
+.list {
+  text-align: left;
+}
+
+ul li {
+  list-style-type: none;
+}
