@@ -106,3 +106,9 @@ a i {
   padding: 5px;
   color: #b6b6b6;
 }
+
+.about p {
+  font-size: 20px;
+  margin: 20px auto;
+  line-height: 2em;
+}
