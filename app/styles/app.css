@@ -116,3 +116,18 @@ a i {
   margin: 20px auto;
   line-height: 2em;
 }
+
+@media only screen and (max-width: 768px) {
+  .pinstripe-right {
+    visibility: hidden;
+  }
+  .pinstripe-left {
+    visibility: hidden;
+  }
+
+  nav a {
+    display: block;
+    padding: 15px 0;
+  }
+
+}
